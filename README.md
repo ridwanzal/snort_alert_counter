@@ -1,11 +1,10 @@
 # snort_alert_counter
-Simple shell scripting to retrieve value from Snort alert file
+This is simple alert counter of Snort Network Intrusion Detection System.
+You can count the alert base on Content alert or SID (Signature Identification) of the rules.
 
-File Alert atau log counter ini pada dasarnya dibuat untuk
-kebutuhan penunjang penelitian, dan bagaimana mengolah alert 
-yang terdapat pada alert/log file sehingga dapat diketahui berapa jumlah alert yang 
-jenis serangan apa yang muncul
+How to use
+* First open the script
+* set the path where the alert file is 
+* execute the program
 
-Shell scripting ini dibuat menggunakan bash vers 4.3.11 
-Contoh kasus dibawah ini digunakan untuk menghitung alert
-untuk serangan berbasis web application saja.
+
