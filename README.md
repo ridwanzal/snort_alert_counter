@@ -2,7 +2,7 @@
 This is simple alert counter of Snort Network Intrusion Detection System.
 You can count the alert base on Content alert or SID (Signature Identification) of the rules.
 There is 3 format that we could count "Alert Full", "Alert Fast" and "Alert CSV"
-> I'm assuming we've already familiar and understand how Snort works.
+> I'm assuming we've already familiar and understand how to deploy and use Snort in common
 
 
 How to use
