@@ -4,8 +4,8 @@ You can count the alert base on Content alert or SID (Signature Identification) 
 
 How to use
 * First open the script
-**GLOBAL PATH OF LOG FILE
-**example
+** GLOBAL PATH OF LOG FILE
+** example
 '''
 file=/var/log/snort/alert
 '''
