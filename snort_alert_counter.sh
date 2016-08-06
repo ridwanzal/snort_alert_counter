@@ -1,19 +1,19 @@
-#LOGGER SHELL SNORT - ALERT COUNTER
-#PROGRAM PENUNJANG PENELITIAN
+#SNORT ALERT COUNTER
+#SUPPORTING MATERIALS RESEARCH
 #TUGAS AKHIR JURUSAN SISTEM KOMPUTER
 #JUDUL : SISTEM DETEKSI HTTP MENGGUNAKAN HTTP INSPECT PREPROCESSOR DAN RULE OPTIONS
 #RELEASE : JANUARI 2016
 
-
-
 #!/bin/bash
 
-
 #GLOBAL PATH OF LOG FILE
-file=/media/reyridrif4/TUGAS_AKHIR/PENGUJIAN_1/snort_pengujian1/alert_full
-file_fast=/media/reyridrif4/TUGAS_AKHIR/PENGUJIAN_1/snort_pengujian1/alert_fast
-file_csv=/media/reyridrif4/TUGAS_AKHIR/PENGUJIAN_1/snort_pengujian1/alert.csv
-#daftar fungsi
+file=/var/log/snort/alert_full
+file_fast=/var/log/snort/alert_fast
+file_csv=/var/log/snort/alert.csv
+
+
+#list function
+
 pattern () {
     kata=$1
     echo "ATTACK keyword $1  : "$(grep -o $1 $file | wc -w)
