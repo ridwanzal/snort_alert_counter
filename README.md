@@ -12,5 +12,6 @@ How to use
 file=/var/log/snort/alert
 ```
 * execute the program
-
-
+```
+./snort_alert_couter.sh
+```
