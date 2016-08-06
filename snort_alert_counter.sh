@@ -9,7 +9,7 @@
 #!/bin/bash
 
 
-#GLOBAL ACCESS UNTUK FILE ALERT SNORT
+#GLOBAL PATH OF LOG FILE
 file=/media/reyridrif4/TUGAS_AKHIR/PENGUJIAN_1/snort_pengujian1/alert_full
 file_fast=/media/reyridrif4/TUGAS_AKHIR/PENGUJIAN_1/snort_pengujian1/alert_fast
 file_csv=/media/reyridrif4/TUGAS_AKHIR/PENGUJIAN_1/snort_pengujian1/alert.csv
