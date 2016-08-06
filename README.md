@@ -6,12 +6,12 @@ There is 3 format that we could count "Alert Full", "Alert Fast" and "Alert CSV"
 
 
 How to use
-* First open the script
+* First open the script with your favorite editor
 * Set the path of the alert file *example
 ```
 file=/var/log/snort/alert
 ```
-* execute the program
+* Then, execute the script
 ```
 # ./snort_alert_couter.sh
 ```
