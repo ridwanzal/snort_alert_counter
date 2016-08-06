@@ -7,12 +7,10 @@ There is 3 format that we could count "Alert Full", "Alert Fast" and "Alert CSV"
 
 How to use
 * First open the script
-GLOBAL PATH OF LOG FILE
-example
+* Set the path of the alert file *example
 ```
 file=/var/log/snort/alert
 ```
-* set the path where the alert file is 
 * execute the program
 
 
