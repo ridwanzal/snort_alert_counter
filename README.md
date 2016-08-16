@@ -6,8 +6,8 @@ There is 3 format that we could count "Alert Full", "Alert Fast" and "Alert CS$
 > Setup, configuration and run the system
 
 
-# This is the first place you must visit, how to instal and deploy Snort [snort official](http://snort.org)
-# For deep understanding about Snort itself, you could read the manual version [manua 2.9.5](http://187.7.106.14/emmonks/seguranca3/Pratica5/snort_manual.pdf)
+### This is the first place you must visit, how to instal and deploy Snort [snort official](http://snort.org)
+###  For deep understanding about Snort itself, you could read the manual version [Snort 2.9.5](http://187.7.106.14/emmonks/seguranca3/Pratica5/snort_manual.pdf)
 
 > I suggested to install Snort through package manager (apt,yum,zypper)
 
